@@ -1,0 +1,168 @@
+
+.login-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .logout-button {
+    background-color: #4DB6AC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #00796b;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #4DB6AC;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #00796b;
+  }
+  
+  .toggle-form {
+    color: #00796b;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .toggle-form:hover {
+    text-decoration: underline;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  .welcome-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .welcome-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .welcome-card p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #555;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .card-btn {
+    flex: 1;
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-btn:hover {
+    background-color: #00796b;
+  }
+  
+  .logout {
+    background-color: #f44336;
+  }
+  
+  .logout:hover {
+    background-color: #c62828;
+  }
+  @media (max-width: 480px) {
+    .form-container, .welcome-card {
+      padding: 20px;
+      max-width: 95%;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    .input-field {
+      font-size: 0.9rem;
+    }
+  
+    .submit-button {
+      padding: 12px;
+      font-size: 1rem;
+    }
+  
+    .toggle-form {
+      font-size: 0.8rem;
+    }
+  
+    .card-btn {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+    }
+  }

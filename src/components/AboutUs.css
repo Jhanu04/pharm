@@ -1,0 +1,154 @@
+.about-container {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+}
+
+.about-intro h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-intro .highlight {
+  color: #4DB6AC;
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #333;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.about-card h3 {
+  color: #4DB6AC;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.green-card {
+  background-color: #4DB6AC;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 20px 0;
+  max-width: 1050px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.green-card h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.green-card p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #f0f0f0;
+}
+
+.green-card .highlight {
+  color: #ffdd57;
+}
+
+@media (max-width: 768px) {
+  .about-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-intro p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .about-card {
+    max-width: 280px;
+    padding: 15px;
+  }
+
+  .about-card img {
+    height: 160px;
+  }
+
+  .green-card {
+    margin-top: 60px;
+    padding: 15px;
+  }
+
+  .green-card h1 {
+    font-size: 1.8rem;
+  }
+
+  .green-card p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-intro h1 {
+    font-size: 2rem;
+  }
+
+  .about-intro p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .about-card {
+    max-width: 250px;
+    padding: 12px;
+  }
+
+  .about-card img {
+    height: 140px;
+  }
+
+  .green-card {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .green-card h1 {
+    font-size: 1.5rem;
+  }
+}
