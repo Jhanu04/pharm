@@ -1,7 +1,7 @@
-#React Frontend E-Commerce Platform (Pharmacy Store)
+##React Frontend E-Commerce Platform (Pharmacy Store)
 This project is a React single-page application (SPA) simulating a frontend-only e-commerce platform for a pharmacy store. It allows users to browse pharmaceutical products, manage a shopping cart, and simulate booking. Cart data is persisted in browser local storage, eliminating backend complexity and focusing on frontend skills.
 
-#Key Features
+##Key Features
 Displays pharmaceutical products in a responsive grid layout.
 
 Add and remove items from the cart with dynamic total price updates.
@@ -16,7 +16,7 @@ Client-side routing enables smooth navigation without page reloads.
 
 Modular React components ensure maintainable and scalable code.
 
-#Components
+##Components
 App.js: Root component managing routing and layout.
 
 NavBar.jsx: Navigation bar with links to Shop, Cart, Booking, and About pages.
@@ -31,7 +31,7 @@ Booking.jsx: Simulates checkout process and clears cart on confirmation.
 
 AboutUs.jsx: Provides project information and purpose.
 
-#Technologies Used
+##Technologies Used
 React.js for building the UI.
 
 JavaScript (ES6+) for logic and interactivity.
@@ -44,7 +44,7 @@ React Router DOM for client-side routing.
 
 Browser localStorage API to persist cart data.
 
-#How It Works
+##How It Works
 Users browse products and add them to their cart.
 
 Cart data is saved and loaded from browser localStorage to persist across sessions.
@@ -53,7 +53,7 @@ Users can view and modify the cart contents dynamically.
 
 Checkout simulates purchase confirmation and clears the cart.
 
-#Usage
+##Usage
 Clone the repository and navigate to the project folder.
 
 Install dependencies using npm install or yarn install.
