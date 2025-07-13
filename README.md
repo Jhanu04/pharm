@@ -1,6 +1,6 @@
 # React Frontend E-Commerce Platform (Pharmacy Store)
 
-This project is a React single-page application (SPA) simulating a frontend-only e-commerce platform for a pharmacy store. It allows users to browse pharmaceutical products, manage a shopping cart, and simulate booking. Cart data is saved in browser local storage, avoiding backend complexity and focusing on frontend skills.
+This project is a React app simulating a frontend-only e-commerce platform for a pharmacy store. It allows users to browse pharmaceutical products, manage a shopping cart, and simulate booking. Cart data is saved in browser local storage, avoiding backend complexity and focusing on frontend skills.
 
 ## Key Features
 
